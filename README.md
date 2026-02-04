@@ -8,6 +8,10 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/1PQdwf2wO0tU51i0uBHErBk9X6LEziU_k
 
+or https://nest-egg-tracker--zenieverse.replit.app
+
+Demo Video: 
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
