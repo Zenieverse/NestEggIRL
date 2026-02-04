@@ -8,9 +8,11 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/1PQdwf2wO0tU51i0uBHErBk9X6LEziU_k
 
-or https://nest-egg-tracker--zenieverse.replit.app
+or https://nest-egg-irl--zenieverse.replit.app
 
-Demo Video: 
+or https://c8e1cf00-207f-4f9f-b5ff-02ae19d79cec-00-2tbisb6hssikq.worf.replit.dev 
+
+Demo Video: https://youtu.be/WFIZo5OASNE?si=cC4AAwl83R3_8otC
 
 ## Run Locally
 
