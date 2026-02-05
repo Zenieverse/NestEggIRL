@@ -13,7 +13,8 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     isPlus: false,
     totalSaved: 0,
     actionsCount: 0,
-    unlockedLessons: ['etf-intro'],
+    // Fix: Changed unlockedLessons to completedLessons to match UserProfile type
+    completedLessons: ['etf-intro'],
     history: []
   });
 

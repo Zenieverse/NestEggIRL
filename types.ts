@@ -3,12 +3,16 @@ export type HouseholdSize = '1-2' | '3-4' | '5+';
 export type BudgetRange = 'Under $150' | '$150-$250' | '$250+';
 export type InvestingLevel = 'Beginner' | 'Curious' | 'Ready';
 
+export type ActionType = 'swap' | 'meal_plan' | 'lesson';
+
 export interface Decision {
   id: string;
   item: string;
-  category: PurchaseCategory;
+  category: PurchaseCategory | 'Meal Prep';
   savings: number;
   date: string;
+  originalPrice?: number;
+  type: ActionType;
 }
 
 export interface UserProfile {
@@ -19,8 +23,9 @@ export interface UserProfile {
   isPlus: boolean;
   totalSaved: number;
   actionsCount: number;
-  unlockedLessons: string[];
+  completedLessons: string[];
   history: Decision[];
+  joinedDate: string;
 }
 
 export type PurchaseCategory = 'Groceries' | 'Home' | 'Kids' | 'Meals' | 'Other';

@@ -1,7 +1,5 @@
 {
   "name": "NestEgg IRL",
   "description": "A calm, decision-focused finance companion for busy mums to save money and learn investing basics.",
-  "requestFramePermissions": [
-    "camera"
-  ]
+  "requestFramePermissions": []
 }
